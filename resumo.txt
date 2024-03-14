@@ -1,0 +1,33 @@
+Dados Primitivos
+
+number: números inteiros, conta de matemática etc..
+string: caracteres, textos, informações etc...
+boolean: verdadeiro e falso, se as variaveis são iguais
+
+
+Regras dos sinais
+
+os dois sinais == quer dizer quem tem que ser do mesmo valor
+Ex: const number = 1;
+    const tetxo = '1';
+    console.log(number == tetxo)
+    true
+Obs: era par ser falso, pois um é numero e outro tetxo
+
+Os três sinais === quer dizer se são do mesmo valor e se é number ou string
+    const number = 1;
+    const tetxo = '1';
+    console.log(number === tetxo)
+    true    
+
+
+variaveis e seus significados
+
+var1- é para algo maior, extenso
+let- determinadas parte codigo, if e else
+const- é para uma função, algo mais especifico
+
+
+truthy ou falsy
+
+É como javascript entende como true ou false
