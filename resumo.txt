@@ -5,7 +5,7 @@ string: caracteres, textos, informações etc...
 boolean: verdadeiro e falso, se as variaveis são iguais
 
 
-Regras dos sinais
+Regras dos sinais (concatenação)
 
 os dois sinais == quer dizer quem tem que ser do mesmo valor
 Ex: const number = 1;
@@ -31,3 +31,10 @@ const- é para uma função, algo mais especifico
 truthy ou falsy
 
 É como javascript entende como true ou false
+se os valores são iguais ou não
+
+Conversões implícitas 
+
+Usar os comandos do javascript
+Number() que tudo que estiver dentro vai ser transformado em número
+String() que tudo que estiver dentro vai ser transformado em string
