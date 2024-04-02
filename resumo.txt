@@ -24,8 +24,8 @@ Os três sinais === quer dizer se são do mesmo valor e se é number ou string
 variaveis e seus significados
 
 var1- é para algo maior, extenso
-let- determinadas parte codigo, if e else
-const- é para uma função, algo mais especifico
+let- determinadas parte codigo, if e else não precisa dar um valor à ela
+const- é para uma função, algo mais especifico é algo constante ela precisa de um valor
 
 
 truthy ou falsy
@@ -38,3 +38,15 @@ Conversões implícitas
 Usar os comandos do javascript
 Number() que tudo que estiver dentro vai ser transformado em número
 String() que tudo que estiver dentro vai ser transformado em string
+
+Linguagem e especificações
+
+Linguagem interpretada o código funcionando por partes, linha por linha
+Linguagem compilados o código só funciona se tudo estiver pronto e é executado no final
+
+Comparação (Logíca de programação)
+
+|| : Operador "ou", retorna true caso uma seja válida; uma é verdadeira e outra é falsa
+&& : Operador "e", retorna true somente se todas as condições forem válidas; os dois são verdadeiro ou falso
+
+!= e !== : Operadores "não igual" e "estritamente não igual", para dizer que está negando algo.
